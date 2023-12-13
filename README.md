@@ -1,1 +1,3 @@
-# ansible-collection-automation
+# Ansible Collection - voje.automation
+
+Documentation for the collection.
