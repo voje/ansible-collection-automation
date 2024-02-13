@@ -1,0 +1,7 @@
+---
+- name: "Install/upgrade golang"
+  hosts: localhost
+  tasks:
+    - name: "Golang role"
+      ansible.builtin.import_role:
+        name: voje.automation.go

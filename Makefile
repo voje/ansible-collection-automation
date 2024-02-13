@@ -24,3 +24,5 @@ lint:
 molte:
 	cd extensions && molecule test
 
+run-local:
+	ansible-playbook -i localhost, --connection=local playbooks/go.yml
