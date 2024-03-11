@@ -1,0 +1,7 @@
+---
+- name: "Install/upgrade Neovim"
+  hosts: localhost
+  tasks:
+    - name: "Neovim role"
+      ansible.builtin.import_role:
+        name: voje.automation.nvim
